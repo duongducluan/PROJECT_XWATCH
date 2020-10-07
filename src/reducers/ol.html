@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript">
+		let initialState= [
+		{
+			img1: "f1",
+			img2: "https://xwatch.vn/images/products/menufactories/original/hang-bently_1569042227.png",
+			img3: "https://xwatch.vn/images/products/menufactories/original/brand-bulova_1561519549.png",
+			name:"B"
+		},
+		{
+			img1: "f2",
+			img2: "https://xwatch.vn/images/products/menufactories/original/brand-elixa_1561519538.png",
+			img3: "",
+			name:"C"
+		},
+		{
+			img1: "f3",
+			img2: "https://xwatch.vn/images/products/menufactories/original/brand-elixa_1561519538.png",
+			img3: "E"
+		},
+		{
+			img1: "f4",
+			img2: "https://xwatch.vn/images/products/menufactories/original/brand-festina_1592444667.png",
+			img3: "https://xwatch.vn/images/products/menufactories/original/brand-freelook_1570673916.png",
+			name:"F"
+		}]
+		console.log(initialState)
+		var loc=initialState.filter((item)=>{
+			return item.name=="F"
+		})
+		console.log(loc)
+	</script>
+</body>
+</html>
